@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="24dp"
+    android:layout_span="2">
+
+    <TableRow>
+
+    <TextView
+        android:id="@+id/sensorNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: " />
+        <TextView
+            android:id="@+id/sensorNameDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name: " />
+</TableRow>
+    <TableRow>
+    <TextView
+        android:id="@+id/sensorVendorLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="vendor" />
+        <TextView
+            android:id="@+id/sensorVendorDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="vendor" />
+</TableRow>
+    <TableRow>
+    <TextView
+        android:id="@+id/sensorVersionLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="version: " />
+        <TextView
+            android:id="@+id/sensorVersionDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="version: " />
+</TableRow>
+    <TableRow>
+    <TextView
+        android:id="@+id/sensorTypeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="type: " />
+        <TextView
+            android:id="@+id/sensorTypeDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="type: " />
+</TableRow>
+    <TableRow>
+    <TextView
+        android:id="@+id/sensorMaxRangeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="maxRange: " />
+        <TextView
+            android:id="@+id/sensorMaxRangeDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="maxRange: " />
+</TableRow>
+    <TableRow>
+    <TextView
+        android:id="@+id/sensorResolutionLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="resolution: " />
+        <TextView
+            android:id="@+id/sensorResolutionDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="resolution: " />
+</TableRow>
+    <TableRow>
+    <TextView
+    android:id="@+id/sensorPowerLabel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="power: " />
+        <TextView
+            android:id="@+id/sensorPowerDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="power: " />
+</TableRow>
+    <TableRow>
+    <TextView
+        android:id="@+id/sensorMinDelayLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="minDelay: " />
+        <TextView
+            android:id="@+id/sensorMinDelayDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="minDelay: " />
+</TableRow>
+
+</TableLayout>
